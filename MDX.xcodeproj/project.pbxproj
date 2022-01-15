@@ -13,6 +13,7 @@
 		50B05E6427935DFE006A559F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B05E6327935DFE006A559F /* Assets.xcassets */; };
 		50B05E6727935DFE006A559F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B05E6627935DFE006A559F /* Preview Assets.xcassets */; };
 		50B05E74279374CC006A559F /* MarkdownKit in Frameworks */ = {isa = PBXBuildFile; productRef = 50B05E73279374CC006A559F /* MarkdownKit */; };
+		50B05E76279378A4006A559F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B05E75279378A4006A559F /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		50B05E6627935DFE006A559F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		50B05E6827935DFE006A559F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B05E6927935DFE006A559F /* MDX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MDX.entitlements; sourceTree = "<group>"; };
+		50B05E75279378A4006A559F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				50B05E5D27935DFD006A559F /* MDXApp.swift */,
 				50B05E5F27935DFD006A559F /* MDXDocument.swift */,
+				50B05E75279378A4006A559F /* WebView.swift */,
 				50B05E6127935DFD006A559F /* ContentView.swift */,
 				50B05E6327935DFE006A559F /* Assets.xcassets */,
 				50B05E6827935DFE006A559F /* Info.plist */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50B05E6027935DFD006A559F /* MDXDocument.swift in Sources */,
+				50B05E76279378A4006A559F /* WebView.swift in Sources */,
 				50B05E5E27935DFD006A559F /* MDXApp.swift in Sources */,
 				50B05E6227935DFD006A559F /* ContentView.swift in Sources */,
 			);

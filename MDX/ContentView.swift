@@ -11,7 +11,11 @@ struct ContentView: View {
     @Binding var document: MDXDocument
 
     var body: some View {
-        TextEditor(text: $document.text)
+		HSplitView {
+			TextEditor(text: $document.text)
+			WebView(html: document.html)
+		}
+        
     }
 }
 
