@@ -14,6 +14,14 @@
 		50B05E6727935DFE006A559F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B05E6627935DFE006A559F /* Preview Assets.xcassets */; };
 		50B05E74279374CC006A559F /* MarkdownKit in Frameworks */ = {isa = PBXBuildFile; productRef = 50B05E73279374CC006A559F /* MarkdownKit */; };
 		50B05E76279378A4006A559F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B05E75279378A4006A559F /* WebView.swift */; };
+		50B05E7827937C12006A559F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B05E7727937C12006A559F /* SettingsView.swift */; };
+		50B05E7A279385C0006A559F /* MenuCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B05E79279385C0006A559F /* MenuCommands.swift */; };
+		50B05E7C279388DC006A559F /* StyleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B05E7B279388DC006A559F /* StyleSheets.swift */; };
+		50B05E81279389E0006A559F /* modest.css in Resources */ = {isa = PBXBuildFile; fileRef = 50B05E7D279389E0006A559F /* modest.css */; };
+		50B05E82279389E0006A559F /* solarizeddark.css in Resources */ = {isa = PBXBuildFile; fileRef = 50B05E7E279389E0006A559F /* solarizeddark.css */; };
+		50B05E83279389E0006A559F /* ulysses.css in Resources */ = {isa = PBXBuildFile; fileRef = 50B05E7F279389E0006A559F /* ulysses.css */; };
+		50B05E84279389E0006A559F /* github.css in Resources */ = {isa = PBXBuildFile; fileRef = 50B05E80279389E0006A559F /* github.css */; };
+		50B05E872794983D006A559F /* ToolbarCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B05E862794983D006A559F /* ToolbarCommands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		50B05E6827935DFE006A559F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B05E6927935DFE006A559F /* MDX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MDX.entitlements; sourceTree = "<group>"; };
 		50B05E75279378A4006A559F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		50B05E7727937C12006A559F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		50B05E79279385C0006A559F /* MenuCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCommands.swift; sourceTree = "<group>"; };
+		50B05E7B279388DC006A559F /* StyleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleSheets.swift; sourceTree = "<group>"; };
+		50B05E7D279389E0006A559F /* modest.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = modest.css; sourceTree = "<group>"; };
+		50B05E7E279389E0006A559F /* solarizeddark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = solarizeddark.css; sourceTree = "<group>"; };
+		50B05E7F279389E0006A559F /* ulysses.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ulysses.css; sourceTree = "<group>"; };
+		50B05E80279389E0006A559F /* github.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = github.css; sourceTree = "<group>"; };
+		50B05E862794983D006A559F /* ToolbarCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarCommands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +77,16 @@
 			children = (
 				50B05E5D27935DFD006A559F /* MDXApp.swift */,
 				50B05E5F27935DFD006A559F /* MDXDocument.swift */,
-				50B05E75279378A4006A559F /* WebView.swift */,
 				50B05E6127935DFD006A559F /* ContentView.swift */,
+				50B05E7727937C12006A559F /* SettingsView.swift */,
+				50B05E75279378A4006A559F /* WebView.swift */,
+				50B05E79279385C0006A559F /* MenuCommands.swift */,
+				50B05E862794983D006A559F /* ToolbarCommands.swift */,
+				50B05E7B279388DC006A559F /* StyleSheets.swift */,
 				50B05E6327935DFE006A559F /* Assets.xcassets */,
 				50B05E6827935DFE006A559F /* Info.plist */,
 				50B05E6927935DFE006A559F /* MDX.entitlements */,
+				50B05E85279389E5006A559F /* StyleSheets */,
 				50B05E6527935DFE006A559F /* Preview Content */,
 			);
 			path = MDX;
@@ -77,6 +98,17 @@
 				50B05E6627935DFE006A559F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50B05E85279389E5006A559F /* StyleSheets */ = {
+			isa = PBXGroup;
+			children = (
+				50B05E80279389E0006A559F /* github.css */,
+				50B05E7D279389E0006A559F /* modest.css */,
+				50B05E7E279389E0006A559F /* solarizeddark.css */,
+				50B05E7F279389E0006A559F /* ulysses.css */,
+			);
+			path = StyleSheets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +175,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B05E84279389E0006A559F /* github.css in Resources */,
+				50B05E83279389E0006A559F /* ulysses.css in Resources */,
 				50B05E6727935DFE006A559F /* Preview Assets.xcassets in Resources */,
+				50B05E81279389E0006A559F /* modest.css in Resources */,
 				50B05E6427935DFE006A559F /* Assets.xcassets in Resources */,
+				50B05E82279389E0006A559F /* solarizeddark.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,8 +191,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B05E7827937C12006A559F /* SettingsView.swift in Sources */,
+				50B05E7C279388DC006A559F /* StyleSheets.swift in Sources */,
 				50B05E6027935DFD006A559F /* MDXDocument.swift in Sources */,
+				50B05E7A279385C0006A559F /* MenuCommands.swift in Sources */,
 				50B05E76279378A4006A559F /* WebView.swift in Sources */,
+				50B05E872794983D006A559F /* ToolbarCommands.swift in Sources */,
 				50B05E5E27935DFD006A559F /* MDXApp.swift in Sources */,
 				50B05E6227935DFD006A559F /* ContentView.swift in Sources */,
 			);

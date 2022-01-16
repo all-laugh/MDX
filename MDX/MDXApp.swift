@@ -13,5 +13,12 @@ struct MDXApp: App {
         DocumentGroup(newDocument: MDXDocument()) { file in
             ContentView(document: file.$document)
         }
+		.commands {
+			MenuCommands()
+		}
+		
+		Settings {
+			SettingsView()
+		}
     }
 }
